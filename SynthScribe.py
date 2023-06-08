@@ -1,7 +1,8 @@
-import discord
-from discord.ext import commands
 import asyncio
 import re
+
+import discord
+from discord.ext import commands
 
 intents = discord.Intents.all()
 intents.message_content = True
@@ -43,4 +44,4 @@ async def on_error(event, *args, **kwargs):
 async def on_disconnect():
     print('Disconnected from Discord!')
 
-bot.run('TOKEN')
+bot.run('MTExNTk1MjcxNjI1MDg4MjA2OA.GQffcf.0C6xVlZuA_qcsMF0z_JCa4noWHdi1FyO6CpkHQ')
